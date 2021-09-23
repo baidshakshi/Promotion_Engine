@@ -1,0 +1,10 @@
+com\demo\PromotionEngine\CartRepository.class
+com\demo\PromotionEngine\PromotionResource.class
+com\demo\PromotionEngine\MyResource.class
+com\demo\PromotionEngine\ProductResource.class
+com\demo\PromotionEngine\Product.class
+com\demo\PromotionEngine\ProductRepository.class
+com\demo\PromotionEngine\Promotion.class
+com\demo\PromotionEngine\PromotionRepository.class
+com\demo\PromotionEngine\Cart.class
+com\demo\PromotionEngine\CartResource.class
