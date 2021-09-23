@@ -23,7 +23,9 @@
 	e.	quantity (int)
 
 Please connect to MySql with credentials root/root123 and port 3306. If the server is running on another port, please make the required change in the Repository Classes. Once connected to the server, execute the following queries to recreate the database. 
+
 DROP SCHEMA PROMOTION_ENGINE;
+
 CREATE SCHEMA PROMOTION_ENGINE;
 
 USE PROMOTION_ENGINE;
