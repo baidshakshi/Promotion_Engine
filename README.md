@@ -64,25 +64,29 @@ CREATE TABLE PROMOTION(PROMOTIONID INTEGER NOT NULL,PRODUCTID INTEGER, PTYPE VAR
 1.	Create Products – POST: http://localhost:8080/PromotionEngine/webapi/product/
 
 
-		Payload for Product A:
+	Payload for Product A:
+	
 		{
 			"productName":"A",
 			"price":50.0
 		}
 
-		Payload for Product B:
+	Payload for Product B:
+	
 		{
 			"productName":"B",
 			"price":30.0
 		}
 
-		Payload for Product C:
+	Payload for Product C:
+	
 		{
 			"productName":"C",
 			"price":20.0
 		}
 
-		Payload for Product D:
+	Payload for Product D:
+	
 		{
 			"productName":"D",
 			"price":15.0
@@ -98,7 +102,7 @@ Example: http://localhost:8080/PromotionEngine/webapi/product/A
 
 5.	Create Promotion – POST : http://localhost:8080/PromotionEngine/webapi/promotion/
 
-		Payload for Promotion of A considering productId of A is 4:
+	Payload for Promotion of A considering productId of A is 4:
 
 		[
 			{
@@ -109,7 +113,8 @@ Example: http://localhost:8080/PromotionEngine/webapi/product/A
 			}
 		]
 
-		Payload for Promotion of B considering productId of B is 5:
+	Payload for Promotion of B considering productId of B is 5:
+	
 
 		[
 			{
@@ -120,7 +125,8 @@ Example: http://localhost:8080/PromotionEngine/webapi/product/A
 			}
 		]
 
-		Payload for Promotion of  C+D considering productId of C is 6 and productId of D is 7 :
+	Payload for Promotion of  C+D considering productId of C is 6 and productId of D is 7 :
+	
 		[
 			{
 				"productId":6,
@@ -146,7 +152,7 @@ Example: http://localhost:8080/PromotionEngine/webapi/promotion/1
 
 9.	Submit Cart Items and Calculate Final Price after Applying Promotions – POST: http://localhost:8080/PromotionEngine/webapi/checkout
 
-		Example Payload for Scenario 1:
+	Example Payload for Scenario 1:
 
 		[
 			{
@@ -163,7 +169,8 @@ Example: http://localhost:8080/PromotionEngine/webapi/promotion/1
 			}
 		]
 
-		Example Payload for Scenario 2:
+	Example Payload for Scenario 2:
+	
 		[
 			{
 				"productId":4,
@@ -179,7 +186,7 @@ Example: http://localhost:8080/PromotionEngine/webapi/promotion/1
 			}
 		]
 
-		Example Payload for Scenario 3:
+	Example Payload for Scenario 3:
 
 		[
 			{
